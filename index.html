@@ -1,0 +1,102 @@
+<!DocType html>
+<html>
+
+<head>
+	<title>MERMETO</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+<body>
+	<section class="bannersec">
+		<div class="bannercon">
+			<div class="bannerrow">
+				<div class="bannercol1">
+					<div id="showpic">
+						<img src="image/pic1.webp" alt="loading"/>
+					</div>
+					<div class="piccollection">
+						<div class="pics" onclick="picselect(0)"><img id="imgselect" src="image/pic1.webp"/></div>
+						<div class="pics" onclick="picselect(1)"><img src="image/pic2.webp"/></div>
+						<div class="pics" onclick="picselect(2)"><img src="image/pic3.webp"/></div>
+						<div class="pics" onclick="picselect(3)"><img src="image/pic4.webp"/></div>
+					</div>
+
+				</div>
+				<div class="bannercol2">
+					<div>
+						<p>Mermeto</p>
+						<h2 id="protitle">Embrace Sideboard</h2>
+					</div>
+					<hr>
+					<div>
+						<div class="price">
+							<h1>$12999.00 </h1>
+							<h4 id="offer"></h4>
+						</div>
+						<div><del>$19999.00</del></div>
+
+					</div>
+					<hr>
+					<div>
+						<p>Choose a Color</p>
+						<div id="color">
+							<div class="colors" onclick="colorselect(0,'Yellow')"><div class="colorsec" ><div style="background-color: rgb(243, 184, 57)"></div></div></div>
+							<div class="colors" onclick="colorselect(1,'Green')"><div class="colorsec" ><div   style="background-color: rgb(94, 245, 94)"></div></div></div>
+							<div class="colors" onclick="colorselect(2,'Blue')"><div class="colorsec" ><div  style="background-color: rgb(151, 56, 230)"></div></div></div>
+							<div class="colors" onclick="colorselect(3,'Pink')"><div  class="colorsec"><div  style="background-color:pink"></div></div></div>
+						</div>
+					</div>
+					<hr>
+					<div>
+						<p>Choose a Size</p>
+						<div id="size">
+								<div  onclick="sizeselect('Small',0)" class="sizeselect"><div id="sizeselect"><input name='diffsize' type="radio" checked>Small</div></div>
+								<div  onclick="sizeselect('Medium',1)"  class="sizeselect"><div><input  name='diffsize' type="radio">Medium</div></div>
+								<div  onclick="sizeselect('Large',2)"  class="sizeselect"><div><input name='diffsize' type="radio">Large</div></div>
+								<div  onclick="sizeselect('Extra Large',3)"  class="sizeselect"><div><input  name='diffsize' type="radio">Extra Large</div></div>
+								<div  onclick="sizeselect('XXL',4)"  class="sizeselect"><div><input  name='diffsize' type="radio">XXL</div></div>
+						</div>
+					</div>
+
+					<div>
+						<div class="addtocart">
+							<div class="add">
+								<div onclick="decrement()">-</div>
+								<div id="quantity">1</div>
+								<div onclick="increment()">+</div>
+							</div>
+							<div class="cart">
+									<h5 onclick="addcart()"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Add To Cart</h5>
+							</div>
+						</div>
+						<div id="addmsg">
+						</div>
+					</div>
+					<hr>
+					<div>
+						<p class="para">The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior
+							protection
+							and look great, this storage solution is both functional and attractive. It fits seamlessly
+							into any
+							home decor, with clean lines and a timeless look. Crafted from premimum materials for a
+							combination of style,
+							durability, and reliability.
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<script src="main.js"></script>
+
+</body>
+
+</html>

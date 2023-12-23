@@ -1,0 +1,106 @@
+@media(max-width:767px) {
+    .bannercol1{
+        height: 100vh;
+    }
+    #showpic{
+        height:75%;
+    }
+    .cart {
+        padding: 10px 15px;
+    }
+
+    .piccollection {
+        padding: 20px;
+        display: flex;
+    }
+
+    .piccollection div {
+        margin: 5px;    
+    }
+
+    .add div {
+        padding: 5px 7px;
+    }
+    .para{
+        font-size: 15px;
+    }
+}
+
+@media(min-width:1025px) {
+    .bannerrow {
+        display: flex;
+    }
+
+    .bannercol1 {
+        width: 40%;
+        height: 100vh;
+    }
+
+    .bannercol2 {
+        width: 60%
+    }
+
+    .bannercol1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .add div {
+        padding: 5px 15px;
+    }
+
+    .cart {
+        padding: 10px 50px;
+    }
+
+    .piccollection {
+        padding: 40px;
+        display: flex;
+        margin-top: 0%;
+    }
+    .piccollection div{
+        margin-right:5px;
+    }
+    #showpic{
+        margin: auto;
+        height: 70%;
+    }
+    #addmsg{
+        width:80%;
+    }
+    .para{
+        font-size: 18px;
+    }
+
+
+}
+
+@media(min-width:768px) {
+    .bannercol1 {
+        display: flex;
+        height:80vh;
+    }
+
+    .add div {
+        padding: 5px 15px;
+    }
+
+    .cart {
+        padding: 10px 50px;
+    }
+
+    .piccollection {
+        padding: 20px;
+    }
+    #showpic{
+        height:100%;
+    }
+    .piccollection div{
+        margin-bottom:5px;
+    }
+    .para{
+        font-size: 18px;
+    }
+    
+
+}
